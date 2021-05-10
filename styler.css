@@ -1,0 +1,36 @@
+.parent {
+    position: relative;
+    display: inline-block;
+}
+#btn {
+    width: 10rem;
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer
+
+}
+
+#dropped {
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 10rem;
+    overflow: auto;
+}
+#dropped > * {
+    padding: 0.5rem;
+    text-decoration: none;
+    color: black;
+
+
+}
+body{
+    font-family: Arial
+}
+
+.parent > * > * {
+    display: none;
+}
+
